@@ -1,0 +1,8 @@
+{
+  "owner": "YOUR_GITHUB_USERNAME",
+  "token_path": "~/.guardian_token",
+  "run_log": "~/guardian-output/run.jsonl",
+  "board_path": null,
+  "ground_path": null,
+  "stale_hours": 12
+}

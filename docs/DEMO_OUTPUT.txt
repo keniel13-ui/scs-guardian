@@ -1,0 +1,29 @@
+SYNTHETIC FIXTURE — NOT A LIVE GUARDIAN INVESTIGATION
+1. Baseline: observed one repository; no change claimed.
+2. Unchanged: True
+3. Same repo, new PR: snapshot changed.
+--- before
+
++++ after
+
+@@ -6,7 +6,16 @@
+
+       "name": "project",
+       "branch": "main",
+       "head": "abc123",
+-      "pulls": [],
++      "pulls": [
++        {
++          "number": 7,
++          "author": "contributor",
++          "state": "open",
++          "merged_at": null,
++          "head": null,
++          "url": "https://example.invalid/pull/7"
++        }
++      ],
+       "forks": [],
+       "workflows": [],
+       "collaborators": [],
+4. Permission failure: scan failed, no successful snapshot.
+Human/model investigation of significance is a separate step; none ran here.

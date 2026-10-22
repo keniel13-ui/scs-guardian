@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env*
+config.local.json
+*.token
+.guardian_token
+run.jsonl
+guardian-output/
+.DS_Store
