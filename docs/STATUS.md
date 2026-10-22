@@ -8,11 +8,22 @@ artifacts. Do not transfer test or deployment claims between them.
 | Conversation/investigation occurred | Three supplied Guardian answers and local reviewer files. Reports improved in structure; third answer still failed its independent review. |
 | Lessons moved to a skill | Installed MEMORY.md points to guardian-discipline; installed skill contains corrections. Prompted by the owner, not unsolicited improvement. |
 | Prototype queried GitHub | Two manual receipt lines on October 21 report 11 public repositories. This review did not rerun authenticated calls. |
-| Prototype is scheduled | Local job 3093cd293ec4, 0 7 * * *, next_run Oct22 07:00-04:00; last_run null at capture. |
+| Prototype ran on schedule | Local job 3093cd293ec4 dispatched Oct22 07:00:01-04:00; collector logged 12 public repos at 07:00:39; completion 07:01:28 with status ok and response [SILENT]. This was baseline context, not a detected change or a useful finding. |
 | Candidate collector works on fixtures | Eight development tests; see test file. No paid calls, network or actual credentials. |
-| Candidate deployed | No. Local preparation only. |
+| Candidate installed in the author's Hermes runtime | No. The public package and installed prototype remain separate. |
 | Retained correction/general intelligence | Not established. |
 | Savings and per-run model cost | Not measured for scheduled work. Provider balance alone is not per-run attribution. |
+
+The package was published October 22 at commit `2610698`; its initial GitHub CI run
+passed: https://github.com/keniel13-ui/scs-guardian/actions/runs/39721540281.
+Publication is distinct from installing the candidate into the author's runtime.
+
+After the first scheduled run, the owner prompted the installed Guardian to
+repair an empty-result/failed-lookup conflation. Its collector now emits
+`unavailable` for failed collaborator requests. That label alone does not identify
+the failure's cause. The stored baseline predates this representation change;
+a changed label must not be presented as a GitHub event. The portable candidate
+here uses a different policy: an incomplete collaborator lookup fails the scan.
 
 ## Changes from the installed prototype
 
