@@ -21,9 +21,25 @@ Publication is distinct from installing the candidate into the author's runtime.
 After the first scheduled run, the owner prompted the installed Guardian to
 repair an empty-result/failed-lookup conflation. Its collector now emits
 `unavailable` for failed collaborator requests. That label alone does not identify
-the failure's cause. The stored baseline predates this representation change;
+the failure's cause. The morning baseline predated this representation change;
 a changed label must not be presented as a GitHub event. The portable candidate
 here uses a different policy: an incomplete collaborator lookup fails the scan.
+
+## Recorded afternoon investigation
+
+[The uncut demonstration](https://youtu.be/SxvFAuh-nTQ) lasts 16 minutes,
+37 seconds. The owner asks what the morning run found and what remains unseen.
+The installed Guardian removes the hash of an automatically regenerated work
+summary from its monitor, keeping a file-age signal. A saved tool receipt reports
+two consecutive outputs identical, and a later receipt confirms a baseline reset.
+The lesson was recorded in its skill. These are local session receipts, not an
+independent pass or evidence of an unattended repair.
+
+The file was already known to be generated; no workspace-first discovery is
+claimed. Removing the hash also removes content-change detection for that file.
+Two identical runs do not prove future determinism, and resetting the baseline
+can absorb real changes as well as representation changes. The repair's broader
+behavior remains to be independently evaluated.
 
 ## Changes from the installed prototype
 
@@ -31,7 +47,7 @@ The candidate preserves PR numbers/states instead of only author sets; reports
 per-workflow CI at current HEAD instead of one latest conclusion; makes request
 and pagination failures explicit; uses configurable paths; and refuses redirect
 credential forwarding. These are code changes with fixture coverage, not a live
-repair claim. The installed prototype remains unchanged.
+repair claim. This public collector has not been installed in the prototype.
 
 ## Before describing an unattended outcome
 

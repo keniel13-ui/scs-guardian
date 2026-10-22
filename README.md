@@ -13,6 +13,15 @@ October 22. It has not replaced the author's installed prototype. No scheduled
 run of this candidate or persistent learning result is claimed. Independent
 review: **BREAKER_PENDING**.
 
+## Watch the recorded investigation
+
+[Full uncut demo: 16 minutes, 37 seconds](https://youtu.be/SxvFAuh-nTQ).
+The recording shows the public fixture, the installed prototype's scheduled-job
+record, and a Guardian conversation investigating the morning run. During that
+conversation the Guardian changes its installed monitor and checks two outputs.
+This is a prompted investigation, not an unattended repair or a general learning
+result. See [evidence and limitations](docs/STATUS.md).
+
 ## Try the offline demo
 
 Python 3.10 or later, no dependencies, credentials or paid calls:
